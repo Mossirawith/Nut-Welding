@@ -1,0 +1,117 @@
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f7fa;
+      padding: 40px;
+      text-align: center;
+      color: #333;
+    }
+
+    h2 {
+      color: #2a3f54;
+      margin-bottom: 8px;
+    }
+
+    input {
+      padding: 12px;
+      width: 280px;
+      font-size: 16px;
+      margin: 10px auto 25px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    }
+
+    table {
+      width: 90%;
+      margin: 20px auto;
+      border-collapse: collapse;
+      background-color: #ffffff;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 14px 10px;
+      text-align: center;
+      font-size: 15px;
+    }
+
+    th {
+      background-color: #007BFF;
+      color: #fff;
+      font-weight: 600;
+    }
+
+    td {
+      background-color: #fbfdff;
+      color: #333;
+    }
+
+    td.final {
+      font-weight: bold;
+      color: #ff0000;
+    }
+
+    tr:hover td {
+      background-color: #eef7ff;
+    }
+    .step-box {
+    background: linear-gradient(135deg, #e6f2ff, #f9fcff);
+    border: 2px solid #cce5ff;
+    padding: 25px;
+    border-radius: 16px;
+    max-width: 750px;
+    margin: 5px auto;
+    box-shadow: 0 6px 20px rgba(0, 123, 255, 0.15);
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .step-box:hover {
+    transform: scale(1.01);
+    box-shadow: 0 10px 25px rgba(0, 123, 255, 0.2);
+  }
+
+  .step-box strong {
+    font-size: 20px;
+    color: #0c3c78;
+    display: block;
+    margin-bottom: 12px;
+    text-shadow: 0.5px 0.5px #fff;
+  }
+
+  .step-box input {
+    padding: 10px 16px;
+    font-size: 16px;
+    width: 300px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08) inset;
+  }.back-to-home {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  background-color: #007BFF;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  z-index: 9999;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s;
+}
+
+.back-to-home:hover {
+  background-color: #0056b3;
+}
+
+
+
+
+
+  

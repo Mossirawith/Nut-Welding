@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html lang="th">
+<head>
+<meta charset="utf-8"/>
+<title>Thread Code Display</title>
+
+<link href="style.css" rel="stylesheet"/></head>
+<body>
+<div style="margin-bottom: 10px;">
+<img alt="Koken Logo" src="kkt-01.png" style="height: 80px;"/>
+<div style="font-size: 30px; font-weight: bold; margin-top: 5px; color: #2a3f54;">Nut-Welding</div>
+</div>
+<div class="step-box">
+<div style="text-align: left; margin-bottom: 5px;">
+<a href="https://mossirawith.github.io/Home/" style="
+      background-color: #007BFF;
+      color: white;
+      padding: 8px 14px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+      display: inline-block;
+    ">◀ หน้าแรก</a>
+</div>
+<div class="step-box">
+<strong>🧩 Step 1: กรอกรหัส Thread Code เพื่อแสดงข้อมูล</strong>
+<br/><input id="codeInput" oninput="checkCode()" placeholder="กรอกตัวเลข 4 หลักหน้า" type="text"/>
+<table>
+<thead>
+<tr>
+<th>Class</th>
+<th>Thread</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="classCell">-</td>
+<td id="threadCell">-</td>
+<td id="typeCell">-</td>
+<td id="descCell">-</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- ✅ Step 2 -->
+<div class="step-box" style="border-left-color: #28a745;">
+<strong>🔩 Step 2: กรอกตัวเลขชุดหลัง (ตำแหน่ง 2,3,4)</strong><br/>
+<input id="codeInputTail" oninput="checkTailCode()" placeholder="กรอกตัวเลข 3 หลัก เช่น 008" type="text"/>
+<table>
+<thead>
+<tr>
+<th colspan="2">Nominal designation of screw thread d</th>
+<th colspan="2">Pitch</th>
+<th colspan="2">Width across flat</th>
+<th>Result (M - Pitch)</th>
+<th>T.Nut</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colspan="2" id="nominalCell">-</td>
+<td colspan="2" id="pitchCell">-</td>
+<td colspan="2" id="widthCell">-</td>
+<td class="result" id="resultCell">-</td>
+<td class="final" id="finalCell">-</td>
+</tr>
+</tbody>
+</table>
+<div style="margin-top: 30px;">
+<h2 style="color: #d60000;"></h2>
+<table style="width: 300px; margin: 0 auto; background-color: #fff0f0; border: 2px solid #ff4d4d; border-radius: 12px;">
+<thead>
+<tr>
+<th style="background-color: #ff4d4d; color: white; font-size: 18px;">T.Nut (mm)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="finalCellSummary" style="color: red; font-weight: bold; font-size: 20px;">-</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+</div></div><script src="script.js"></script></body>
+</html>
